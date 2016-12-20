@@ -1,14 +1,14 @@
 /* Main class */
 .navbar-wagon {
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
   transition: all 0.3s ease;
   display: flex;
-  height: 70px;
+  height: 80px;
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Optional class to fix the navbar on top */
@@ -22,7 +22,7 @@
 
 /* Navbar logo */
 .navbar-wagon-brand img {
-  width: 50px;
+  width: 150px;
 }
 
 /* Navbar right section (with form, links, button) */
@@ -30,7 +30,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  letter-spacing: 1px;
+  color : #fff;
 }
+
+.navbar-wagon-right a {
+  color : #c39f76;
+}
+
+.navbar-wagon-right a:hover {
+  color : black;
+  text-decoration: none;
+}
+
+
 
 /* Navbar item */
 .navbar-wagon-item {

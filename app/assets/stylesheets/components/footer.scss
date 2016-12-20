@@ -1,0 +1,95 @@
+/* Footer design */
+#footer {
+  flex: 1;
+  background: black;
+  left: 0px;
+  bottom: 0px;
+  position: relative;
+  padding: 10px 10px;
+  color: #CCCCCC;
+  z-index: 1;
+  width: 100%;
+}
+#footer p {
+  margin-top: 17px;
+  color: #fff;
+}
+#footer ul {
+  margin-top: 5px;
+}
+#footer a {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 20px;
+  transition: color 0.5s ease;
+}
+#footer a:hover{
+  color: yellow;
+}
+
+.fa-twitter{
+  color: #fff;
+  &:hover{
+  color: rgb(51,204,255);
+  }
+}
+
+.fa-facebook{
+  color: #fff;
+  &:hover{
+  color: #3b5998;
+  }
+}
+
+.fa-youtube{
+  color: #fff;
+  &:hover{
+  color: rgb(187, 0, 0);
+  }
+}
+
+
+.fa-instagram{
+  color: #fff;
+  &:hover{
+color: #f09433;
+color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }
+}
+
+.grey{
+  color: grey;
+  align-items: center;
+
+}
+
+.principal{
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer .fa-envelope{
+  padding: 5px;
+  font-size: 30px;
+  color: white;
+  &:hover{
+    opacity: 0.8;
+    color: #f47d20;
+  }
+}
+#footer .fa-phone-square{
+  padding: 6px;
+  font-size: 30px;
+  color: white;
+  &:hover{
+    opacity: 0.8;
+    color: #f47d20;
+  }
+}
+
+#footer h6{
+  padding-top: 21px;
+}

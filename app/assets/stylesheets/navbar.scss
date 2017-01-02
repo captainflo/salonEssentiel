@@ -44,6 +44,25 @@
 }
 
 
+/* effect for navbar scroll*/
+.nav-tabs {
+    border-bottom: 0px solid transparent !important;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: black !important;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+    border-bottom-color: transparent !important;
+    cursor: default !important;
+}
+
+.nav > li > a:focus, li > a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+}
+
 
 /* Navbar item */
 .navbar-wagon-item {
@@ -141,4 +160,13 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+/* hamburger dropdown*/
+.fa-bars{
+  color : #c39f76;
+}
+
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+    font-size: 30px;
 }

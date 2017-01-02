@@ -1,6 +1,6 @@
-<div class="navbar-wagon navbar-wagon-fixed">
+<div class="navbar-wagon navbar-wagon-fixed ">
   <!-- Logo -->
-  <%= link_to root_path, class: "navbar-wagon-brand" do %>
+  <%= link_to '#page-top', class: "navbar-wagon-brand" do %>
     <%= image_tag "logo.png" %>
   <% end %>
 
@@ -8,12 +8,12 @@
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
     <!-- Button (call-to-action) -->
-
-    <%= link_to t(".top_call_to_action", default: "QUI SOMMES NOUS"), "#", class: "navbar-wagon-item" %>
-    <%= link_to t(".top_call_to_action", default: "PRESTATION"), "#", class: "navbar-wagon-item" %>
-    <%= link_to t(".top_call_to_action", default: "PRIX"), "#", class: "navbar-wagon-item" %>
-    <%= link_to t(".top_call_to_action", default: "CONTACT"), "#", class: "navbar-wagon-item" %>
-
+    <ul class="nav nav-tabs" >
+    <li><%= link_to t(".top_call_to_action", default: "QUI SOMMES NOUS"), "#section1", class: "navbar-wagon-item" %></li>
+    <li><%= link_to t(".top_call_to_action", default: "VISITE 360°"), "#section2", class: "navbar-wagon-item" %></li>
+    <li><%= link_to t(".top_call_to_action", default: "TARIFS"), "#section3", class: "navbar-wagon-item" %></li>
+    <li><%= link_to t(".top_call_to_action", default: "CONTACT"), "#section4", class: "navbar-wagon-item" %></li>
+    <ul>
     <!-- Search form
     <form action="" class="navbar-wagon-search">
       <input type="text" class="navbar-wagon-search-input" placeholder="Search something">

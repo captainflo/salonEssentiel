@@ -3,24 +3,35 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-image:url("brique-red.jpg");
+  background-image:url("brique-brown.jpeg");
   background-repeat: no-repeat;
   background-size: cover !important;
   left: 0px;
   bottom: 0px;
-  padding: 10px 10px;
+  padding: 70px 10px 10px 20px;
   color: #CCCCCC;
   width: 100%;
+  min-height: 310px;
 }
 #section4 p {
   color: #fff;
   font-size: 20px;
   margin-left: auto;
   margin-right: auto;
+  font-family: 'Raleway',sans-serif;
+}
+
+#section4 h1{
+  color: #fff;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 27px;
+  line-height: 25px;
+  font-weight: normal;
+  letter-spacing: 1.2px;
 }
 
 #section4 img{
-  width: 100%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
@@ -32,12 +43,8 @@
   transition: color 0.5s ease;
 }
 
-#section4 .contact{
-  margin-top: 40px;
-}
-
-#section4 ul{
-  margin-top: 65px;
+#section4 .element1{
+  width: 300px;
 }
 
 .fa-mars{

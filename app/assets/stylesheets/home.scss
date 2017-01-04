@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-
+// section 1
 #section1 {
   padding-top:80px;
   background-color: #fff;
@@ -55,12 +55,17 @@ body {
   line-height: 22px;
   color: #888888;
 }
-#section2 {padding-top:80px;height:500px;background-color: red;}
 
+// section 2
+#section2 {padding-top:80px;height:500px;background-color: #fff;}
+
+
+
+// section 3
 #section3 {
   padding-top:80px;
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 60px;
+  padding-right: 60px;
   padding-bottom: 80px;
   color: black;
   background-color: #fff;
@@ -72,18 +77,16 @@ body {
   justify-content: space-between;
   width: auto;
   height: auto;
-  padding-left: 60px;
-  padding-right: 60px;
 }
 
 #section3 .man{
   display: block;
-  width: 700px;
+  width: 48%;
 }
 
 #section3 .women{
   display: block;
-  width: 700px;
+  width: 48%;
 }
 
 #section3 h1{
@@ -94,7 +97,6 @@ body {
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 60px;
-  padding-left: 60px;
 }
 
 #section3 h2{
@@ -127,7 +129,7 @@ ul.leaders {
     color: black;
     font-family: 'Montserrat',sans-serif;
     font-size: 17px;
-    line-height: 25px;
+    line-height: 60px;
     font-weight: normal;
     letter-spacing: 1.2px;
   }
@@ -150,3 +152,50 @@ ul.leaders span + span {
     padding-left: 0.33em;
     background: white}
   }
+
+.fa-euro:before, .fa-eur:before{
+  font-size: 20px;
+  color: #c39f76;
+}
+
+
+
+// section 3 for responsive ipad and iphone
+@media screen and (min-width: 200px) and (max-width: 1100px) {
+
+  #section3 {
+    padding-left: auto;
+    padding-right: auto;
+  }
+  #section3 .principal{
+    justify-content: center;
+  }
+  #section3 .man{
+    display: block;
+    width: 100%;
+  }
+
+  #section3 .women{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 594px) {
+  #section3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .fa-euro:before, .fa-eur:before{
+    font-size: 14px;
+    color: #c39f76;
+  }
+
+  #section3 {
+  ul.leaders {
+      font-size: 11px;
+    }
+  }
+}
+// end

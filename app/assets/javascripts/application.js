@@ -44,4 +44,11 @@ $(document).on('turbolinks:load', function() {
         }
       });
 
+      window.sr = ScrollReveal({ reset: true });
+
+    // Customizing a reveal set
+      sr.reveal('.mov_left', { duration: 1000, origin: 'left', mobile: true });
+      sr.reveal('.mov_right', { duration: 1000, origin: 'right', mobile: true });
+
+
 });

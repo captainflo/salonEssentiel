@@ -1,8 +1,5 @@
 /* Footer design */
 #section4 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
   background-image:url("brique-brown.jpeg");
   background-repeat: no-repeat;
   background-size: cover !important;
@@ -12,6 +9,12 @@
   color: #CCCCCC;
   width: 100%;
   min-height: 310px;
+}
+
+#section4 .principal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 #section4 p {
   color: #fff;
@@ -88,7 +91,7 @@
   }
 }
 
-.footer .fa-facebook{
+.fa-facebook{
   color: #fff;
   &:hover{
   color: #3b5998;
@@ -111,4 +114,12 @@ color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366
 color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
   }
+}
+
+#section4 span{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  color: #222222;
 }

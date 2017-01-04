@@ -23,12 +23,12 @@ body {
   max-width: 850px;
   max-height: 600px;
   padding-right: 30px;
-  padding-bottom: 60px;
+
 }
 
 .principal-section1{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap-reverse;
   justify-content: space-around;
   padding: 80px 40px;
   height: auto;
@@ -40,10 +40,12 @@ body {
 }
 
 .element2 h2{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: 500px;
-  line-height: 33px;
+  font-family: 'Raleway',sans-serif;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
   color: #222222;
   margin-top: 0px;
 }
@@ -54,6 +56,7 @@ body {
   font-weight: 500px;
   line-height: 22px;
   color: #888888;
+  padding-bottom: 30px;
 }
 
 // section 2
@@ -69,15 +72,15 @@ body {
   font-weight: 500px;
   line-height: 22px;
   color: #888888;
+  padding-bottom: 20px;
 }
 #section2 h1{
-  color: rgb(34,34,34);
   font-family: 'Raleway',sans-serif;
   font-size: 30px;
   line-height: 45px;
   font-weight: 600;
   letter-spacing: 1px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   color: #222222;
 }
 #section2 .principal{

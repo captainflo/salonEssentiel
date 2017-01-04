@@ -1,7 +1,7 @@
 <div class="navbar-wagon navbar-wagon-fixed ">
   <!-- Logo -->
   <%= link_to '#page-top', class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png" %>
+    <%= image_tag "logo-gold.png" %>
   <% end %>
 
   <!-- Right Navigation -->
@@ -69,9 +69,10 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Some mobile link</a></li>
-        <li><a href="#">Other one</a></li>
-        <li><a href="#">Other one</a></li>
+        <li><%= link_to t(".top_call_to_action", default: "QUI SOMMES NOUS"), "#section1"%></li>
+        <li><%= link_to t(".top_call_to_action", default: "VISITE 360°"), "#section2" %></li>
+        <li><%= link_to t(".top_call_to_action", default: "TARIFS"), "#section3" %></li>
+        <li><%= link_to t(".top_call_to_action", default: "CONTACT"), "#section4" %></li>
       </ul>
     </div>
   </div>
